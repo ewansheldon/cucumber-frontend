@@ -46,7 +46,7 @@
     "static-favicon": "~1.0.0",
     "sync-exec": "^0.6.2",
     "time-grunt": "^1.2.1",
-    "urijs": "^1.17.1"
+    "urijs": "^1.18.12"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.0",
