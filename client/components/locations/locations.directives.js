@@ -611,7 +611,7 @@ app.directive('locationAudit', ['Session', 'Client', 'Email', 'Guest', 'Social',
     };
 
     scope.updateAudit = function(selected) {
-      scope.loading = true
+      scope.loading = true;
       switch(selected) {
         case 'Emails':
           findEmails();
