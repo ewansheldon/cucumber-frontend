@@ -2224,6 +2224,7 @@ app.directive('radiusStats', ['$timeout', 'Report', '$routeParams', 'COLOURS', '
 
     ClientDetails.client.version = '4';
     ClientDetails.client.ap_mac = undefined;
+    console.log(ClientDetails)
 
     function chart() {
       var params = {
